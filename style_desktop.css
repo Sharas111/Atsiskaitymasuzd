@@ -1,0 +1,53 @@
+.link {
+  text-align: right;
+}
+div.link {
+  padding: 10px 0;
+}
+
+div.link a {
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+  padding: 0 10px;
+}
+div.link a:last-child {
+  color: rgba(255, 57, 152, 1);
+  padding-right: 70px;
+}
+@media only screen and (min-width: 769px) {
+  #icon {
+    display: none;
+  }
+  .second {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+  }
+  .first {
+    background-size: 30%;
+  }
+}
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 57, 152, 1);
+}
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #111111;
+}
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+p a {
+  color: #555555;
+  font-weight: bold;
+}
